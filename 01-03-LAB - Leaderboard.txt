@@ -1,0 +1,13 @@
+^^ LAB - Leaderboard
+
+Create a game (retro arcade game is fine) that has a leaderboard that persists using `localStorage`. Collect the users initials (or name), and store their score as well as the date and time. The leaderboard should ONLY show their initials/names and points (but the times should be visible in the Development Tools).
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
