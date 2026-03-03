@@ -3,5 +3,6 @@ TODO LIST
  * drag and drop
  * Checkboxes
  * Completed section (under the TO DOs) that display as grayed out, checked, and strikethrough
+ * daily refresh option
 
 NOT React, not Firebase/firestore
