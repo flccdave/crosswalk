@@ -1,0 +1,7 @@
+TODO LIST
+ * localStorage
+ * drag and drop
+ * Checkboxes
+ * Completed section (under the TO DOs) that display as grayed out, checked, and strikethrough
+
+NOT React, not Firebase/firestore
