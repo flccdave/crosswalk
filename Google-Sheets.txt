@@ -1,0 +1,53 @@
+^^ LAB - Google Sheets as Storage
+
+We are going to be using Google Sheets as a makeshift database to store data. This circumvents the issue we experience using GitHub to host our sites - the storage is static; it cannot change.
+
+# Google Sheets as Storage
+Using Google Sheets will allow us to render a website using data that lives in the Google Sheet. This allows us to change the data in the Sheet *which will change the website*. 
+
+This means you could give other people access to your Google Sheet so they can control the content. Or it means you can make some content live (or in "draft") from the Sheet. 
+
+Here are two examples:
+* [Dave's Vibe Codings](http://daveghidiu.com/vibe)
+    * Google Sheet
+
+* [The Library's list of AI tools](https://aicollections.org/)
+    * Google Sheet
+
+## Instructions
+
+^acc
+
+^^^ Step 1
+Create data in a Google Sheet. You can have AI do this! Ideas might include a "Contacts" web app. Each row might have first name, last name, street address, city, state, zip, phone number, email, URL of a photo. This is just an example. Do whatever you want!
+
+^^^ Step 2
+Use AI to vibe code this. Make sure you tell AI you are using Google Sheets and the Google Apps Script.
+
+^^^ Step 3
+Go to your sheet, click on the "Extensions" menu, and go to "Apps Script". You'll see a `Code.gs` file - this is where the code for manipulating the data will live. AI will also put a `doGet()` function in there (so don't get weirded out by that!).
+
+You'll have to create an `index.html` page (sometimes AI will give you `Index.html` - go with whatever AI gives you.
+
+^^^ Step 4
+Deploy!! Go to "Deploy", and under "Select Type", choose "Web app". Then give this version a description, decide the persona of the app (I usually use myself), and then who has access (I usually choose "Anyone").
+
+After you deploy, test it out! If you need to make changes, they won't appear in the live version. Instead, go to Deploy again, then "Test Deployments". The link it gives you should end in `/dev` - you can keep using this link and refreshing every time you save your work in the editor.
+
+^acc-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+
+Topics to flesh out:
+1. `@OnlyCurrentDoc`
+2. End Point
+3. Embed the Script
+4. Accept permissions
+5. Never use abbreviations for variable names
